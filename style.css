@@ -24,13 +24,15 @@ figcaption {
 #header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #242424;
     width: 100%;
+    height: 18rem;    
 }
 
 #img-logo {
-    width: 154px;
-    height: 96.25px;
+    width: 15.4rem;
+    height: 9.625rem;
     margin: 4rem;
 }
 
@@ -64,31 +66,83 @@ figcaption {
     background-color: #242424;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 40.9rem;
     padding: 20px;
 }
 
-#img-container-travel-index:hover > :not(:hover) {
-    opacity: .4;
-    transform: scale(0.9);
+.carrossel {
+    margin-top: 60px;
+    background-color: #242424;
+    width: 100%;
+    height: 40.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #img3 {
+    display: flex;
+    align-items: center;
+
+  }
+   
+  .carrossel .img {
+    display: none;
+  }
+   
+  .carrossel .img:target {
+    display: block;
+  }
+   
+  .carrossel .voltar {
+    position: relative;
+    width: 13.8rem;
+    height: 12.3rem;
+    background-color: #D9D9D9;
+  }
+   
+  .carrossel .avançar {
+    position: relative;
+    width: 13.8rem;
+    height: 12.3rem;
+    background-color: #D9D9D9;
 }
 
-#img-main-travel-index {
-    height: 21rem;
+.figure-travel-index {
     transition: .35s;
+}
+
+.arrow-travel-index-back {
+    width: 6.251rem;
+    height: 6.251rem;
+    rotate: 179.55deg;
+}
+
+.arrow-travel-index-next {
+    width: 6.261rem;
+    height: 6.261rem;
+    rotate: 0.36deg;
+}
+
+.img-travel-index {
+    width: 61.3rem;
+    height: 40.9rem;
     cursor: pointer;
-    border-radius: 7px;
 }
 
 #article-travel-index {
     margin-top: 10rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 20rem;
 }
 
 .title-travel-index {
     color: #FFFFFF;
-    font-size: 8rem;
+    font-size: 9.6rem;
     line-height: 100%;
     margin-bottom: 20px;
     text-shadow: 2px 4px 4px #00000080;
@@ -97,7 +151,7 @@ figcaption {
 
 .txt-travel-index {
     color: #FFFFFF;
-    font-size: 2rem;
+    font-size: 2.4rem;
     text-shadow: 2px 4px 4px #242424;
 }
 
@@ -106,8 +160,8 @@ figcaption {
     justify-content: center;
     align-items: center;
     background-color: #242424;
-    width: 50.2rem;
-    height: 50.3rem;
+    width: 52.2rem;
+    height: 52.3rem;
     border-radius: 2rem;
     border: 1px solid #000000;
 }
@@ -116,14 +170,15 @@ figcaption {
     margin-top: 20rem;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 20rem;
 }
 
 #img-travel-index {
     width: 69.21rem;
     height: 64.4rem;
-    transform: translate(0, 6%);
+    transform: translate(0, 8%);
 
 }
 
@@ -141,7 +196,7 @@ figcaption {
 }
 
 #subtitle-travel {
-    font-size: 6rem;
+    font-size: 6.4rem;
     line-height: 100%;
     font-weight: 400;
     text-shadow: 2px 4px 4px #00000080;
@@ -149,37 +204,43 @@ figcaption {
 
 #img-travel-index-2 {
     width: 64.5rem;
-    height: 48rem;
-    transform: translate(2%, 7%);
+    height: 53rem;
+    transform: translate(2%, 3%);
 }
 
 #footer-index-travel {
     background-color: #242424;
     padding: 0.5rem;
     margin-top: 30rem;
+    width: 100%;
 }
 
 #container-footer-index-travel {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 64px;
+    height: 5.5rem;
 }
 
 #ico-footer-travel-whatsapp {
-    height: 45px;
+    width: 63px;
+    height: 63px;
 }
 
 #ico-footer-travel-facebook {
-    height: 28px;
+    width: 33.22px;
+    height: 33.22px;
 }
 
 #ico-footer-travel-instagram {
-    height: 30px;
+    width: 37.8px;
+    height: 37.8px;
 }
 
 #ico-footer-travel-X {
-    height: 40px;
+    width: 50.4px;
+    height: 50.4px;
 }
 
 .ico-footer-travel{
@@ -205,12 +266,16 @@ figcaption {
 #who-title-travel {
     color: #F5EBFA;
     background-color: #242424;
-    font-size: 5rem;
+    width: 32.3rem;
+    height: 9.7rem;
+    font-size: 4rem;
     font-weight: 700;
-    padding: 2rem;
-    border-radius: 12px;
+    border-radius: 10px;
     text-transform: uppercase;
     margin-bottom: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #who-article-all {
