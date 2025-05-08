@@ -9,10 +9,10 @@
     <title>Travel</title>
 </head>
 
-<body id="container-index">
+<body id="container-index" onload="location.href='#img1'">
     <header id="header">
         <figure>
-            <a href="index.html">
+            <a href="index.html" >
                 <img src="/imagens/turismo/travel-3685042_1280.png" alt="Imagem Logo Travel" id="img-logo">
             </a>
             <figcaption>
@@ -43,77 +43,63 @@
 
     <main id="main-travel-index">
         <div class="carrossel">
-            <div class="img1 img" id="img1">
-                <button class="voltar">
-                    <a href="#img3" class="link-carrosel">
-                        <img
-                            src="./imagens/turismo/076f63146bd4c4c6fe0919db61dc5ed791bf950d.png"
-                            alt="Imagem de uma seta" class="arrow-travel-index-back">
-                    </a>
-                </button>
-
-                <img src="./imagens/turismo/pontos-turisticos-paris.jpg" alt="img1" class="img-travel-index">
-
-                <button class="avançar">
-                    <a href="#img2">
-                        <img src="./imagens/turismo/076f63146bd4c4c6fe0919db61dc5ed791bf950d.png"
-                            class="arrow-travel-index-next" alt="Imagem de uma seta">
-                    </a>
-                </button>
-            </div>
-
-            <div class="img2 img" id="img2">
-                <div>
-                    <button class="voltar">
-                        <a href="#img1">
-                            <img src="./imagens/turismo/076f63146bd4c4c6fe0919db61dc5ed791bf950d.png"
-                                alt="Imagem de uma seta" class="arrow-travel-index-back">
-                        </a>
-                    </button>
-                </div>
-
+            <div class="img img1" id="img1">
+              <a href="#img3" class="seta setaesquerda">
                 <figure>
-                    <img src="./imagens/turismo/0aa4c26e805d43df335a992f345ac6f11732e12b.png" alt="Imagem de Maldivas"
-                    class="img-travel-index">
-                    <figcaption>Imagem de Maldivas</figcaption>
+                  <img src="./imagens/turismo/seta carrosel esquerda.png" alt="Seta esquerda">
+                  <figcaption>Seta para imagem anterior</figcaption>
                 </figure>
-
-                <div>
-                    <button class="avançar">
-                        <a href="#img3">
-                            <img src="./imagens/turismo/076f63146bd4c4c6fe0919db61dc5ed791bf950d.png"
-                                class="arrow-travel-index-next" alt="Imagem de uma seta">
-                        </a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="img3 img" id="img3">
-
-                <div>
-                    <button class="voltar">
-                        <a href="#img2">
-                            <img src="./imagens/turismo/076f63146bd4c4c6fe0919db61dc5ed791bf950d.png"
-                                alt="Imagem de uma seta" class="arrow-travel-index-back">
-                        </a>
-                    </button>
-                </div>
-                
+              </a>
+              <figure>
+                <img src="./imagens/turismo/pontos-turisticos-paris.jpg" alt="Pontos turísticos de Paris" class="img-index">
+                <figcaption>Pontos turísticos de Paris</figcaption>
+              </figure>
+              <a href="#img2" class="seta setadireita">
                 <figure>
-                    <img src="./imagens/turismo/india-agra-taj-mahal-templo.jpg" alt="img3" class="img-travel-index">
-                    <figcaption>Imagem do mausoléu Taj Mahal da Índia</figcaption>
+                  <img src="./imagens/turismo/seta carrosel direita.png" alt="Seta direita">
+                  <figcaption>Seta para próxima imagem</figcaption>
                 </figure>
-
-                <div>
-                    <button class="avançar">
-                        <a href="#img1">
-                            <img src="./imagens/turismo/076f63146bd4c4c6fe0919db61dc5ed791bf950d.png"
-                                class="arrow-travel-index-next" alt="Imagem de uma seta">
-                        </a>
-                    </button>
-                </div>
+              </a>
             </div>
-        </div>
+       
+            <div class="img img3" id="img3">
+              <a href="#img2" class="seta setaesquerda">
+                <figure>
+                  <img src="./imagens/turismo/seta carrosel esquerda.png" alt="Seta esquerda">
+                  <figcaption>Seta para imagem anterior</figcaption>
+                </figure>
+              </a>
+              <figure>
+                <img src="./imagens/turismo/ImagemMaldivas.png" alt="Imagem de Maldivas" class="img-index">
+                <figcaption>Imagem de Maldivas</figcaption>
+              </figure>
+              <a href="#img1" class="seta setadireita">
+                <figure>
+                  <img src="./imagens/turismo/seta carrosel direita.png" alt="Seta direita">
+                  <figcaption>Seta para próxima imagem</figcaption>
+                </figure>
+              </a>
+            </div>
+       
+            <div class="img img2" id="img2">
+              <a href="#img1" class="seta setaesquerda">
+                <figure>
+                  <img src="./imagens/turismo/seta carrosel esquerda.png" alt="Seta esquerda">
+                  <figcaption>Seta para imagem anterior</figcaption>
+                </figure>
+              </a>
+              <figure>
+                <img src="./imagens/turismo/india-agra-taj-mahal-templo.jpg" alt="Taj Mahal, Índia" class="img-index">
+                <figcaption>Taj Mahal, Índia</figcaption>
+              </figure>
+              <a href="#img3" class="seta setadireita">
+                <figure>
+                  <img src="./imagens/turismo/seta carrosel direita.png" alt="Seta direita">
+                  <figcaption>Seta para próxima imagem</figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
 
         <article id="article-travel-index">
             <section id="content-travel-index">
