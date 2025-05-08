@@ -204,9 +204,9 @@ figcaption {
 
 #footer-index-travel {
     background-color: #242424;
-    padding: 0.5rem;
     margin-top: 20vh;
     width: 100%;
+    height: auto;
 }
 
 #container-footer-index-travel {
@@ -215,27 +215,30 @@ figcaption {
     align-items: center;
     gap: 64px;
     width: 100%;
-    height: 10vh;
 }
 
 #ico-footer-travel-whatsapp {
+    object-fit: contain;
     width: 6vw;
-    height: 8vh;
+    height: 10vh;
 }
 
 #ico-footer-travel-facebook {
+    object-fit: contain;
     width: 4vw;
-    height: 5vh;
+    height: 6vh;
 }
 
 #ico-footer-travel-instagram {
+    object-fit: contain;
     width: 4vw;
-    height: 5vh;
+    height: 6vh;
 }
 
 #ico-footer-travel-X {
+    object-fit: contain;
     width: 7vw;
-    height: 7vh;
+    height: 9vh;
 }
 
 .ico-footer-travel{
