@@ -204,9 +204,9 @@ figcaption {
 
 #footer-index-travel {
     background-color: #242424;
+    padding: 0.5rem;
     margin-top: 20vh;
     width: 100%;
-    height: auto;
 }
 
 #container-footer-index-travel {
@@ -215,6 +215,7 @@ figcaption {
     align-items: center;
     gap: 64px;
     width: 100%;
+    height: 10vh;
 }
 
 #ico-footer-travel-whatsapp {
@@ -238,7 +239,7 @@ figcaption {
 #ico-footer-travel-X {
     object-fit: contain;
     width: 7vw;
-    height: 9vh;
+    height: 10vh;
 }
 
 .ico-footer-travel{
